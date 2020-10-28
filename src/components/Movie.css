@@ -8,10 +8,14 @@
   width: 80%;
 }
 
-.movies .movie {
+.movies a {
+  text-decoration: none;
   width: 45%;
-  background-color: whitesmoke;
   margin-bottom: 70px;
+}
+
+.movies .movie {
+  background-color: whitesmoke;
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
